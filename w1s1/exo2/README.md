@@ -42,6 +42,6 @@ document.body.className = className;
 
 5. Ouvrir la page HTML dans le navigateur, cliquer sur les boutons et le document devrait changer de couleur.
 
-## Partie 2: bonus
+## Bonus
 
 Faire la même chose mais pour modifier le style d’un élément `div` que vous aurez ajouté dans le document.

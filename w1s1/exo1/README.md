@@ -44,7 +44,7 @@ Voir la documentation :
 
 4. Ouvrir le fichier HTML dans un navigateur (Chrome ou Firefox) pour voir le résultat.
 
-5. Ajouter l’attribut `onclick` à la balise `button` avec comme valeur le nom de la fonction écrite dans le fichier `script.js` : "handleClick()".
+5. Ajouter l’attribut `onclick` à la balise `button` avec comme valeur le nom de la fonction écrite dans le fichier `exo1.js` : "handleClick()".
 
 6. Rafraîchir la page et cliquer sur le bouton. Une fenêtre doit apparaître avec comme contenu "Hello world".
 

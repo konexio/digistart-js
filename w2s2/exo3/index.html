@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Exercice 3 - Le Juste Prix du Mercato</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <script src="./index.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="heading bg-primary text-white col-12">
+        <h1>
+          Exercice 3
+        </h1>
+      </div>
+    </div>
+  </div>
+  </div>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>
+            Le Juste Prix du Mercato
+          </h2>
+        </div>
+        <div class="col-12 form-group">
+          <p>Aller dans le fichier index.js et écrire le code là où c'est indiqué, pour pouvoir faire deviner à
+            l'utilisateur
+            à combien sera racheté Neymar
+            <br />Astuce: Il faudra utiliser les if, else et else if...
+          </p>
+          <div class="container">
+            <div class="row">
+              <h3>Trouve le prix du rachat de Neymar</h3>
+              <div class="form-group col-12">
+                <label class="">Devine à combien de millions Neymar va être racheté</label>
+
+                <div class="form-inline">
+                  <input class="form-control" type="number" name="price" id="price" placeholder="saisis ton prix"
+                    oninput="logPrice(this.value)" />
+                  <button class="btn btn-info" onclick="submitAnswer()">valide ton prix</button>
+                </div>
+              </div>
+
+            </div>
+            <div class="row">
+              <p>Tu as déjà joué les prix suivants:</p>
+              <ul id="prices"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  </div>
+</body>
+
+</html>

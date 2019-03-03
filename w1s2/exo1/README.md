@@ -1,8 +1,10 @@
-### Exercice 1
+# Exercice 1 : Les événements clavier et souris
 
-Dans cet exercice vous allez devoir créer 3 éléments HTML qui utilisent des types d'événements différents.
-Un exemple vous sera fourni pour commencer mais libre à vous de faire d’autres événements.
+## Objectif
 
-1. En utilisant l'événement onclick, créer une fonction qui prévient l'utilisateur à chaque clique sur le bouton
-2. En utilisant l'événement onkeydown, créer une fonction qui affiche chaque caractère que l'utilisateur appuie   
-3. En utilisant les événements  onmouseover et onmouseout, créer une fonction qui change la couleur d’un carré en rouge quand la sourie est sur le bouton et en bleu quand la souris sort du bouton
+Dans cet exercice, vous devrez créer 3 éléments HTML qui utilisent des types d'événements différents.
+Un exemple vous sera fourni pour commencer, mais libre à vous de choisir d'autres événements.
+
+1. En utilisant l'attribut `onclick` de l'élément `button`, créer une fonction qui prévient l'utilisateur à chaque clic sur le bouton.
+2. En utilisant l'attribut `onkeydown` de l'élément `input`, créer une fonction qui affiche dans la console chaque caractère tapé par l'utilisateur.
+3. En utilisant les attributs `onmouseover` et `onmouseout` du second élément `button`, créer une fonction qui change la couleur du `div` carré en rouge quand la souris est sur le bouton et en bleu quand la souris est déplacée ailleurs.

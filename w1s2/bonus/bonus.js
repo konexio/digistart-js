@@ -1,17 +1,15 @@
-
-/* Une fonction qui vérifie la validité d'un chiffre passé en paramètre */
-function isValidNbr (nbr) {
+function isValidNumber(input) {
+  // TODO: Écrire une fonction qui vérifie que son paramètre est bien un nombre.
 }
 
-/* Une fonction qui vérifie la validité d'une adresse email passée en paramètre */
-function isValidEmail (email) {
-}
-/* Une fonction qui vérifie que les deux mots de passe passés en paramètre, sont identiques */
-function passwordEqual (psw, psw1) {
+function isValidEmail(input) {
+  // TODO: Écrire une fonction qui vérifie la validité d'une adresse email passée en paramètre.
 }
 
-/* Une fonction qui va appeller les fonctions précédentes pour vérifier la validité de vos inputs */
+function areEqual(firstPassword, secondPassword) {
+  // TODO: Écrire une fonction qui vérifie que les deux mots de passe passés en paramètres, sont identiques.
+}
 
-function validateForm(event) {
-
+function validateForm() {
+  // TODO: Écrire une fonction qui va appeler les fonctions précédentes pour vérifier la validité de chaque champ du formulaire.
 }

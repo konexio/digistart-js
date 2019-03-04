@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <script src=”index.js”></script>
-</head>
-<body>
-
-  <form name="myForm"  onsubmit="validateForm(event)">
-    Email: <input type="email" name="email">
-    Nombre: <input type="number" name="nbr">
-    Mot de passe: <input type="password" name="psw">
-    Verification de mot de passe: <input type="password" name="psw1">
-    <input type="submit" value="Submit">
-  </form>
-
-</body>
+  <head>
+    <script src="./bonus.js"></script>
+  </head>
+  <body>
+    <form name="myForm" onsubmit="validateForm()">
+      <div>Email : <input type="email" name="user-email" /></div>
+      <div>Nombre : <input type="number" name="user-number" /></div>
+      <div>Mot de passe : <input type="password" name="user-password" /></div>
+      <div>
+        Vérification de mot de passe :
+        <input type="password" name="verified-password" />
+      </div>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
 </html>

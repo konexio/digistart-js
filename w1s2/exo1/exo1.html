@@ -1,16 +1,15 @@
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="./ex01.css">
     <meta charset="utf-8">
-    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./exo1.css">
+    <script src="./exo1.js"></script>
   </head>
   <body>
     <div class="container">
-      <button onclick="firstEvent()" type="button" name="button">Mon button</button>
-      <input onkeydown="secondEvent()" type="text" name="" id="inputId"></input>
-      <p id="resId" ></p>
-      <button onmouseover="thirdEvent()" onmouseout="fourthEvent()"type="button" name="button">Passe ta souris sur moi</button>
-      <div class="cube" id="resOver"></div>
+      <button onclick="handleClick(event)" type="button" name="MyButton">Mon bouton</button>
+      <input onkeydown="handleKeyDown(event)" type="text" name="MyInput"></input>
+      <button onmouseover="handleMouseOver(event)" onmouseout="handleMouseOut(event)" type="button" name="MySecondButton">Passez la souris ici</button>
+      <div id="square"></div>
     </div>
   </body>
 </html>

@@ -1,46 +1,54 @@
 <html>
   <head>
-    <meta charset="utf-8" />
     <title>Calculatrice</title>
+    <meta charset="utf-8" />
     <link rel="stylesheet" href="./exo2.css" />
     <script src="./exo2.js"></script>
   </head>
   <body>
     <div class="container">
-      <div class="container">
-        <input type="number" id="PrefixAdd" />
-        <strong>+</strong>
-        <input id="SufixAdd" />
+      <div class="display-content">
+        <input type="number" id="left-op-add" />
+        <div class="operator">+</div>
+        <input type="number" id="right-op-add" />
+
         <button onclick="add()">ADD</button>
-        <h4>Le resultat de mon addtion</h4>
-        <p id="addRes">0</p>
+
+        <h4>Le résultat de mon addition</h4>
+        <p id="add-result" class="result">0</p>
       </div>
 
       <div class="display-content">
-        <input id="PrefixSub" />
-        <strong>-</strong>
-        <input id="SufixSub" />
+        <input type="number" id="left-op-sub" />
+        <div class="operator">-</div>
+        <input type="number" id="right-op-sub" />
+
         <button onclick="subtract()">SUB</button>
-        <h4>Le resultat de ma soustraction</h4>
-        <p id="subRes">0</p>
+
+        <h4>Le résultat de ma soustraction</h4>
+        <p id="sub-result" class="result">0</p>
       </div>
 
       <div class="display-content">
-        <input id="PrefixMul" />
-        <strong>*</strong>
-        <input id="SufixMul" />
+        <input type="number" id="left-op-mul" />
+        <div class="operator">*</div>
+        <input type="number" id="right-op-mul" />
+
         <button onclick="multiply()">MUL</button>
-        <h4>Le resultat de ma multiplication</h4>
-        <p id="mulRes">0</p>
+
+        <h4>Le résultat de ma multiplication</h4>
+        <p id="mul-result" class="result">0</p>
       </div>
 
       <div class="display-content">
-        <input id="PrefixDiv" />
-        <strong>/</strong>
-        <input id="SufixDiv" />
+        <input type="number" id="left-op-div" />
+        <div class="operator">/</div>
+        <input type="number" id="right-op-div" />
+
         <button onclick="divide()">DIV</button>
-        <h4>Le resultat de ma division</h4>
-        <p id="divRes">0</p>
+
+        <h4>Le résultat de ma division</h4>
+        <p id="div-result" class="result">0</p>
       </div>
     </div>
   </body>

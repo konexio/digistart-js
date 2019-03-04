@@ -1,19 +1,21 @@
-/* Une fonction pour gérer l'addition de la calculatrice */
+function add() {
+  // TODO: Créer une fonction pour gérer l'addition de la calculatrice.
+}
 
-function add() {}
+function subtract() {
+  // TODO: Créer une fonction pour gérer la soustraction de la calculatrice.
+}
 
-/* Une fonction pour gérer la soustraction de la calculatrice */
+function multiply() {
+  // TODO: Créer une fonction pour gérer la multiplication de la calculatrice.
+}
 
-function subtract() {}
+function divide() {
+  // TODO: Créer une fonction pour gérer la division de la calculatrice.
+}
 
-/* Une fonction pour gérer la multiplication de la calculatrice */
-
-function multiply() {}
-
-/* Une fonction pour gérer la division de la calculatrice */
-
-function divide() {}
-
-/* Une fonction pour afficher le résultats de la calculatrice */
-
-function displayRes(resId, total) {}
+function displayResult(elementId, result) {
+  // TODO: Créer une fonction pour afficher le résultat d'une opération de la calculatrice.
+  // "elementId" est l'attribut "id" de l'élément où le résultat devra être affiché.
+  // "result" est le résultat à afficher dans l'élément identifié par "elementId".
+}

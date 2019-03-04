@@ -23,7 +23,7 @@ Vous avez dans ce dossier 2 fichiers :
 
 Au cours de cet exercice, nous allons modifier ces deux fichiers en suivant les instructions suivantes :
 
-1. Dans la balise head du fichier html, ajouter une balise script pour inclure le fichier exo1.js.
+1. Dans la balise head du fichier HTML, ajouter une balise `script` pour inclure le fichier `exo1.js`.
    Lire la partie **"External JavaScript"** sur cette [page de documentation](https://www.w3schools.com/js/js_whereto.asp).
 
 2. Dans le fichier `exo1.js`, écrire une fonction `handleClick` qui exécute l'instruction suivante :
@@ -44,9 +44,9 @@ Voir la documentation :
 
 4. Ouvrir le fichier HTML dans un navigateur (Chrome ou Firefox) pour voir le résultat.
 
-5. Ajouter l’attribut `onclick` à la balise `button` avec comme valeur le nom de la fonction écrite dans le fichier `exo1.js` : "handleClick()".
+5. Ajouter l’attribut `onclick` à la balise `button` avec comme valeur le nom de la fonction écrite dans le fichier `exo1.js` : `"handleClick()"`.
 
-6. Rafraîchir la page et cliquer sur le bouton. Une fenêtre doit apparaître avec comme contenu "Hello world".
+6. Rafraîchir la page et cliquer sur le bouton. Une fenêtre doit apparaître avec comme contenu : `"Hello world"`.
 
 ### Partie 2
 
@@ -60,8 +60,8 @@ Voir la documentation :
 
 3. De la même façon, créer les variables `secondInput` et `secondInputValue`.
 
-4. Stocker dans une variable `resultat` l’addition de `parseInt(firstInputValue)` et `parseInt(secondInputValue)`.
+4. Stocker dans une variable `result` l’addition de `parseInt(firstInputValue)` et `parseInt(secondInputValue)`.
 
-5. Exécuter la fonction `alert` avec comme paramètre la variable `resultat`.
+5. Exécuter la fonction `alert` avec comme paramètre la variable `result`.
 
 6. Rafraîchir la page, remplir les champs avec des nombres, cliquer sur le bouton et vérifier le résultat.

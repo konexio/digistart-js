@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="./exo2.css" />
+    <script src="./exo2.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container">
+        <input type="number" id="PrefixAdd" />
+        <strong>+</strong>
+        <input id="SufixAdd" />
+        <button onclick="add()">ADD</button>
+        <h4>Le resultat de mon addtion</h4>
+        <p id="addRes">0</p>
+      </div>
+
+      <div class="display-content">
+        <input id="PrefixSub" />
+        <strong>-</strong>
+        <input id="SufixSub" />
+        <button onclick="subtract()">SUB</button>
+        <h4>Le resultat de ma soustraction</h4>
+        <p id="subRes">0</p>
+      </div>
+
+      <div class="display-content">
+        <input id="PrefixMul" />
+        <strong>*</strong>
+        <input id="SufixMul" />
+        <button onclick="multiply()">MUL</button>
+        <h4>Le resultat de ma multiplication</h4>
+        <p id="mulRes">0</p>
+      </div>
+
+      <div class="display-content">
+        <input id="PrefixDiv" />
+        <strong>/</strong>
+        <input id="SufixDiv" />
+        <button onclick="divide()">DIV</button>
+        <h4>Le resultat de ma division</h4>
+        <p id="divRes">0</p>
+      </div>
+    </div>
+  </body>
+</html>

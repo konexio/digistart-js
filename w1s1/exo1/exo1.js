@@ -6,10 +6,10 @@
 // Exemple:
 var firstInput = document.getElementById('...');
 
-// Créer ici une autre variable "firstInputValue" pour récupérer la valeur de cet input en faisant : firstInput.value;
+// TODO: Créer ici une autre variable "firstInputValue" pour récupérer la valeur de cet input en faisant : firstInput.value;
 
-// De la même façon, créer ici "secondInput" et "secondInputValue".
+// TODO: De la même façon, créer ici "secondInput" et "secondInputValue".
 
-// Stocker dans une variable “result” l’addition de "parseInt(firstInputValue)" et "parseInt(secondInputValue)".
+// TODO: Stocker dans une variable “result” l’addition de "parseInt(firstInputValue)" et "parseInt(secondInputValue)".
 
-// Exécuter la fonction "alert" avec comme paramètre la variable "result".
+// TODO: Exécuter la fonction "alert" avec comme paramètre la variable "result".

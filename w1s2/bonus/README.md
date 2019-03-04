@@ -1,6 +1,10 @@
 # Exercice bonus
 
+## Objectif
+
 Dans cet exercice, vous devrez ajouter des fonctions de validation à un formulaire.
+
+## Instructions
 
 Vous aurez besoin d'une fonction par type d'`input` et d'une fonction pour vérifier l'envoi du formulaire (fait avec le type `submit`).
 

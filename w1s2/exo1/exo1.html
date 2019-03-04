@@ -1,16 +1,25 @@
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="./ex01.css">
-    <meta charset="utf-8">
-    <script src="./index.js"></script>
+    <title>Événements souris et clavier</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./exo1.css" />
+    <script src="./exo1.js"></script>
   </head>
   <body>
     <div class="container">
-      <button onclick="firstEvent()" type="button" name="button">Mon button</button>
-      <input onkeydown="secondEvent()" type="text" name="" id="inputId"></input>
-      <p id="resId" ></p>
-      <button onmouseover="thirdEvent()" onmouseout="fourthEvent()"type="button" name="button">Passe ta souris sur moi</button>
-      <div class="cube" id="resOver"></div>
+      <button onclick="handleClick(event)" type="button" name="my-button">
+        Mon bouton
+      </button>
+      <input onkeydown="handleKeyDown(event)" type="text" name="my-input" />
+      <button
+        onmouseover="handleMouseOver(event)"
+        onmouseout="handleMouseOut(event)"
+        type="button"
+        name="my-second-button"
+      >
+        Passez la souris ici
+      </button>
+      <div id="square"></div>
     </div>
   </body>
 </html>

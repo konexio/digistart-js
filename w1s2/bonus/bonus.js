@@ -6,8 +6,8 @@ function isValidEmail(input) {
   // TODO: Écrire une fonction qui vérifie la validité d'une adresse email passée en paramètre.
 }
 
-function areEqual(firstPassword, secondPassword) {
-  // TODO: Écrire une fonction qui vérifie que les deux mots de passe passés en paramètres, sont identiques.
+function validatePasswords(firstPassword, secondPassword) {
+  // TODO: Écrire une fonction qui vérifie que les deux mots de passe passés en paramètres, ne sont pas vides et sont identiques.
 }
 
 function validateForm(event) {

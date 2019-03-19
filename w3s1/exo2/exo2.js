@@ -1,5 +1,6 @@
 // TODO: Écrire la fonction "chercherEquipe" qui va chercher si une équipe est parmi les demi-finalistes de la coupe du monde 2018
-
+function chercherEquipe()
+{
 // A l'interieur de la fonction:
   // Initialiser un tableau de 4 equipes: "France", "Angleterre", "Belgique", "Croatie"
 
@@ -13,4 +14,4 @@
   // Arreter de chercher si cette valeur est trouvée au cours du parcours du tableau.
 
 
-
+}

@@ -1,5 +1,6 @@
 // TODO: Écrire la fonction "afficherListeTriee" qui va afficher une liste des demi-finalistes de la coupe du monde 2018 triee par ordre alphabetique
-
+function afficherListeTriee()
+{
     // A l'interieur de la fonction:
     // Initialiser un tableau de 4 equipes: "France", "Angleterre", "Belgique", "Croatie"
 
@@ -13,4 +14,4 @@
     // Utiliser getElementById pour injecter le contenu de la variable "texte" dans la balise <p id="liste">
 
 
-
+}

@@ -2,13 +2,18 @@
 <html>
   <head>
     <!-- TODO: Ajouter ci-dessous une balise script pour inclure le fichier exo1.js -->
+    <script src="exo5.js"></script>
   </head>
   <body>
-    <h2>EXERCICE 4</h2>
-    <p>Saluer les apprenants du cours avec une alerte</p>
+    <h2>EXERCICE 5</h2>
+    <p>Pour aller plus loin, afficher une table de multiplication avec deux for imbriques</p>
     <form action="">
-      <input type="button" onclick="saluer()" value="Saluer">
+      Lignes: <input id="lignes" type="text" name="lignes"><br />
+      Colonnes: <input id="colonnes" type="text" name="colonnes"><br />
+      <input type="button" onclick="afficherTableMultiplication()" value="Generer">
     </form>
+    <p id="table-multiplication-resultat"></p>
+    
     
   </body>
 </html>

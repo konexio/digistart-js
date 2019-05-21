@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- TODO: Ajouter ci-dessous une balise script pour inclure le fichier exo1.js -->
+    <!-- Balise script pour inclure le fichier exo4.js -->
+    <script src="exo4.js"></script>
   </head>
   <body>
-    <h2>EXERCICE 4</h2>
-    <p>Saluer les apprenants du cours avec une alerte</p>
+    <h4>EXERCICE 4</h4>
+    <p>Chercher si une équipe est parmi les demi-finalistes de la coupe du monde 4018</p>
     <form action="">
-      <input type="button" onclick="saluer()" value="Saluer">
+      Equipe: <input id="equipe" type="text" name="equipe"><br>
+      <input type="button" onclick="chercherEquipe()" value="Chercher">
     </form>
-    
+    <p id="chercher-resultat"></p>
   </body>
 </html>

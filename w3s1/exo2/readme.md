@@ -1,15 +1,14 @@
-# Exercice 2 : Chercher si une équipe est parmi les demi-finalistes de la coupe du monde 2018.
+# Exercice 2 : Faire la somme des nombres d’un tableau.
 
 ## Notions traitées
 
-- Parcourir un tableau avec une boucle `for`
-- Vérifier l'égalite d'un élément avec  `===`
-- Utiliser `break` pour arreter une recherche
+- Parcourir un tableau avec une boucle `while`
+- Faire une somme dans une variable
 - Utiliser l'objet `document` et une de ses méthodes (`getElementById`).
 
 ## Description
 
-Dans cet exercice, nous allons apprendre à faire une recherche d'élément avec une boucle `for` et arreter la recherche avec `break` des qu'un element est trouvé.
+Dans cet exercice, nous allons apprendre à faire la somme des nombres d'un tableau avec une boucle `while`.
 
 ## Instructions
 
@@ -22,7 +21,7 @@ Au cours de cet exercice, nous allons modifier ces deux fichiers en suivant les 
 
 1. Dans la balise head du fichier html, ajouter une balise script pour inclure le fichier exo2.js.
 
-2. Dans le fichier `exo2.js`, écrire une fonction `chercherEquipe` qui cherche si l'équipe entrée dans le champ 'equipe' est parmi les demi-finalistes de la coupe du monde 2018.
+2. Dans le fichier `exo2.js`, écrire une fonction `calculerSomme` qui calcule la somme des nombres d'un tableau.
 
-3. Ouvrir le fichier HTML dans un navigateur (Chrome ou Firefox) pour voir le résultat.
+2. Ouvrir le fichier HTML dans un navigateur (Chrome ou Firefox) pour voir le résultat.
 

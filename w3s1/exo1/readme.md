@@ -1,17 +1,13 @@
-# Exercice 1 : Initialiser un tableau, le trier alphabétiquement et l'afficher avec une boucle for.
+# Exercice 1 : Saluer chacun des apprenants avec une alerte
 
 ## Notions traitées
 
-- Inclure un fichier JavaScript externe dans un fichier HTML.
-- Initialisation d'un tableau
-- Acces à la propriété `length`
-- Acces à la méthode `sort`
 - Parcourir un tableau avec une boucle `for`
-- Utiliser l'objet `document` et une de ses méthodes (`getElementById`).
+- Appeler une fonction `alert` pour chaque élément du tableau
 
 ## Description
 
-Dans cet exercice, nous allons apprendre à initialiser un tableau, le trier alphabétiquement et l'afficher avec une boucle for.
+Dans cet exercice, nous allons apprendre à afficher une alerte pour chacun des apprenants afin des les saluer
 
 ## Instructions
 
@@ -23,13 +19,8 @@ Vous avez dans ce dossier 2 fichiers :
 Au cours de cet exercice, nous allons modifier ces deux fichiers en suivant les instructions suivantes :
 
 1. Dans la balise head du fichier html, ajouter une balise script pour inclure le fichier exo1.js.
-   Lire la partie **"External JavaScript"** sur cette [page de documentation](https://www.w3schools.com/js/js_whereto.asp).
 
-2. Dans le fichier `exo1.js`, écrire une fonction `afficherListeTriee` qui affiche une liste des demi-finalistes de la coupe du monde 2018 triée par ordre alphabétique.
+2. Dans le fichier `exo1.js`, écrire une fonction `saluer` qui affiche une alerte pour saluer chacun des apprenants.
 
-3. Dans le fichier HTML :
-
-- Ajouter une balise `script` pour executer la fonction afficherListeTriee();
-
-4. Ouvrir le fichier HTML dans un navigateur (Chrome ou Firefox) pour voir le résultat.
+3. Ouvrir le fichier HTML dans un navigateur (Chrome ou Firefox) pour voir le résultat.
 

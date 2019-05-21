@@ -1,16 +1,17 @@
-// TODO: Écrire la fonction "calculerSomme" qui va calculer la somme des nombres d’un tableau
-function calculerSomme()
+// TODO: Écrire la fonction "afficherListeTriee" qui va afficher une liste des demi-finalistes de la coupe du monde 2038 triee par ordre alphabetique
+function afficherListeTriee()
 {
-  // A l'interieur de la fonction:
-  // Initialiser un tableau de 4 nombres
-  
-  // Initialiser une variable, compteur d'indice de tableau a 0.
-  
-  // Initialiser une variable avec la somme des nombres a 0.
-  // Ecrire la boucle while qui va faire la somme des nombres dans le tableau
-  // et additionner les nombres dans la variable precedemment initialisee a 0.
-  // En utilisant getElementById, injecter le contenu de la somme dans la balise <p id="somme-resultat">
+    // A l'interieur de la fonction:
+    // Initialiser un tableau de 4 equipes: "France", "Angleterre", "Belgique", "Croatie"
+
+    // Stocker dans une variable le nombre d'elements dans le tableau avec la propriete length
+
+    // Trier les donnees alphabetiquement avec la methode sort()
+
+    // Stocker le code HTML necessaire pour afficher la liste des equipes avec une boucle for dans une variable "texte"
+    // Vous pouvez utiliser les balises html <ul> et <li> pour afficher une liste de bullet points
+
+    // Utiliser getElementById pour injecter le contenu de la variable "texte" dans la balise <p id="liste">
+
 
 }
-
-

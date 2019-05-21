@@ -1,17 +1,11 @@
-// TODO: Écrire la fonction "afficherListeTriee" qui va afficher une liste des demi-finalistes de la coupe du monde 2018 triee par ordre alphabetique
-function afficherListeTriee()
+// TODO: Afficher des alertes pour saluer chaque apprenant.
+function saluer()
 {
-    // A l'interieur de la fonction:
-    // Initialiser un tableau de 4 equipes: "France", "Angleterre", "Belgique", "Croatie"
+  // A l'interieur de la fonction:
+  // Initialiser une variable avec la liste des prenoms des apprenants
 
-    // Stocker dans une variable le nombre d'elements dans le tableau avec la propriete length
-
-    // Trier les donnees alphabetiquement avec la methode sort()
-
-    // Stocker le code HTML necessaire pour afficher la liste des equipes avec une boucle for dans une variable "texte"
-    // Vous pouvez utiliser les balises html <ul> et <li> pour afficher une liste de bullet points
-
-    // Utiliser getElementById pour injecter le contenu de la variable "texte" dans la balise <p id="liste">
-
+  // Ecrire la boucle for qui va afficher une alerte pour chaque apprenant et dire "Salut " suivi du prenom de l'apprenant.
 
 }
+
+

@@ -2,8 +2,8 @@
 
 ## Notions traitées
 
-- Lier un fichier JavaScript à HTML.
-- Utiliser `console.log()`.
+- Lier un fichier JavaScript à un document HTML.
+- Utiliser la fonction `console.log()`.
 - Assigner une valeur à une variable.
 - Réassigner une valeur à une variable.
 
@@ -11,13 +11,14 @@
 
 Dans cet exercice, nous allons comprendre comment JavaScript interprète nos instructions d'assignation et de réassignation de variable.
 
-## Instructions
+## Fichiers à modifier
 
-Vous avez dans ce dossier 2 fichiers :
 - `index.html`
 - `main.js`
 
+## Instructions
+
 1. Ouvrir `index.html` dans un navigateur.
-2. Ouvrir la console.
-3. Modifier le fichier `index.html` en suivant les TODO
-4. Modifier le fichier `main.js` en suivant les TODO
+2. Ouvrir la console du navigateur.
+3. Modifier le fichier `index.html` en suivant les commentaires commençant par `TODO`.
+4. Modifier le fichier `main.js` en suivant les commentaires commençant par `TODO`.

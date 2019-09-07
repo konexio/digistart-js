@@ -23,3 +23,7 @@ console.log("Vous êtes dans les exercices sur les méthodes");
 
 
 
+// ------ TODO 4 ------ 
+// 1. Créer une fonction convertToUppercase qui prend en paramètre une chaîne
+// de caractères et qui la renvoie en majuscule grâce à la méthode "toUpperCase".
+// 2. L'exécuter avec le paramètre de votre choix.

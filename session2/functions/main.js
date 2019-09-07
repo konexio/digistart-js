@@ -36,3 +36,15 @@ console.log('Vous êtes dans les exercices sur les fonctions');
 
 
 
+
+// ------ TODO 4 ------ 
+// 1. Créer une fonction displaySum qui prend en paramètre deux nombres entiers
+// et qui affiche la somme de ces deux nombres dans la console.
+
+
+
+
+// 2. L'exécuter avec le paramètre de votre choix.
+
+
+

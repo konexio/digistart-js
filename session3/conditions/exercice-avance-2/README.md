@@ -1,4 +1,4 @@
-## Exercice 2 - Indicateur de longueur d'un mot de passe
+## Exercice avancé 2 - Indicateur de longueur d'un mot de passe
 
 ## Objectif
 

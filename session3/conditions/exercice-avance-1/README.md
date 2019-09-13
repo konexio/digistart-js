@@ -1,4 +1,4 @@
-## Exercice 1 - Changer la couleur de fond du `body`
+## Exercice avancé 1 - Changer la couleur de fond du `body`
 
 ## Objectif
 

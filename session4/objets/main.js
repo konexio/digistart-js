@@ -11,7 +11,7 @@ console.log('Vous êtes dans les exercices sur les objets (objects)');
 
 
 
-// 4. Afficher dans la console l'objet student.
+// 2. Afficher dans la console l'objet student.
 
 
 
@@ -58,11 +58,11 @@ var car = {
   speed: 100
 };
 
-// 1. Ajouter une fonction "drive" à l'objet car qui affiche dans la console la vitesse de l'objet.
+// 1. Ajouter une méthode "drive" à l'objet car qui affiche dans la console "Vroom !".
 
 
 
-// 2. Appeller la fonction drive à partir de l'objet car.
+// 2. Appeller la méthode drive à partir de l'objet car.
 
 
 
@@ -75,8 +75,8 @@ var library = [
     read: true
   },
   {
-    author: 'Steve Jobs',
-    title: 'Walter Isaacson',
+    author: 'Walter Isaacson',
+    title: 'Steve Jobs',
     read: false
   },
   {

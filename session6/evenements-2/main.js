@@ -1,6 +1,6 @@
-/* LE DOM ET LES ÉVÉNEMENTS */
+/* LES ÉVÉNEMENTS */
 console.log('Bienvenue dans la console javascript');
-console.log("Vous êtes dans l'exercice 2 sur le DOM et les événements");
+console.log("Vous êtes dans l'exercice 2 sur les événements");
 
 // ------ TODO 1 ------
 // Créez une variable récupérant l'élément button du HTML.

@@ -17,6 +17,7 @@ console.log("Vous êtes dans l'exercice 3 sur le DOM et les événements");
 
 
 
+
 // ------ TODO 3 ------
 // Attacher un événement "click" sur le bouton, et appeler la fonction lors du clic.
 

@@ -21,7 +21,7 @@ function selectChange() {
   // document.body.style.backgroundColor = '...';
 
 
-  /* MON CODE EN DESSSOUS */
+  /* MON CODE EN DESSOUS */
 
   /* MON CODE AU DESSUS */
 

@@ -4,6 +4,7 @@
 
 - Parcourir un tableau avec une boucle `for`.
 - Changer la portée d'une boucle `for`.
+- Changer le sens d'une boucle `for`.
 - Modifier des variables avec une boucle `for`.
 
 ## Description

@@ -20,25 +20,20 @@ console.log("Vous êtes dans l'exercice 1 sur le DOM");
 
 
 
+
 // ------ TODO 4 ------
-// Créez une variable récupérant tous les éléments de type paragraphe.
-
-
-
-
-// ------ TODO 5 ------
 // Créez une variable récupérant le paragraphe avec la classe "blue".
 
 
 
 
-// ------ TODO 6 ------
+// ------ TODO 5 ------
 // Créez une variable récupérant le paragraphe avec l'id "hideMe".
 
 
 
 
-// ------ TODO 7 ------
+// ------ TODO 6 ------
 // Modifiez le style du paragraphe avec l'id "hideMe" pour le faire disparaître.
 
 

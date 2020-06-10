@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Exercice avancé 2 - Password Meter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <script src="./main.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="heading bg-primary text-white col-12">
+        <h1>
+          Exercice avancé 2
+        </h1>
+      </div>
+    </div>
+  </div>
+  </div>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>
+            Changer la couleur de l'input
+          </h2>
+        </div>
+        <div class="col-12 form-group">
+          <p>Aller dans le fichier index.js et écrire le code à l'endroit indiqué, pour changer la couleur de fond
+            (background-color) de l'input, lorsque l'utilisateur saisit un mot de passe.
+
+            Les règles sont fixées ci-dessous:
+            <table style="text-align: center;">
+              <tr>
+                <th>Longueur</th>
+                <th>Couleur</th>
+              </tr>
+              <tr>
+                <td>0 à 4 caractères</td>
+                <td>rouge</td>
+              </tr>
+              <tr>
+                <td>4 à 8 caractères</td>
+                <td>orange</td>
+              </tr>
+              <tr>
+                <td>8 à 20 caractères</td>
+                <td>vert</td>
+              </tr>
+
+            </table>
+
+            <br />Astuces: Il faudra utiliser les conditions (if...) et aussi les comparateurs...
+          </p>
+          <div class="row form-group">
+            <input class="form-control-sm" type="password" name="mot-de-passe" id="password-input" placeholder="saisissez votre mot de passe"
+              oninput="passwordMeter(this.value)" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+</body>
+
+</html>

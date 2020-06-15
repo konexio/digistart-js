@@ -32,11 +32,17 @@ var otherStuff= null;
 // Pour chaque variable, suivre cet exemple de pseudo code :
 // "mon prénom, {name}, est de type {type de name}"
 
-console.log (Aminata typeof String );
+console.log ( firstName) ; 
+console.log( typeof firstName) ;
 
+console.log ( age) ; 
+console.log( typeof age) ;
 
+console.log ( likeFootball) ; 
+console.log ( typeof likeFootball) ;
 
-
+console.log ( otherStuff) ; 
+console.log ( typeof otherStuff) ;
 
 
 // ------ TODO 3 ------
@@ -45,10 +51,9 @@ console.log (Aminata typeof String );
 var myNumber= 1108;
 
 
-
 // TODO: ÉTAPE 2
 // Afficher dans la console le type de myNumber.
-console.log (number)
+console.log (typeof myNumber)
 
 
 
@@ -56,12 +61,12 @@ console.log (number)
 // Changer la valeur de myNumber à une string (une chaîne de caractères)
 
 
-
+myNumber = "Inconnu" ;
 
 // TODO: ÉTAPE 4
 // Afficher dans la console le type de myNumber.
 
-
+console.log ( typeof myNumber)
 
 
 
@@ -69,12 +74,12 @@ console.log (number)
 // TODO: ÉTAPE 1
 // Ecrire une 1ère variable qui contient la chaîne de caractères "10".
 
-
+var num1 = "10" ;
 
 
 // TODO: ÉTAPE 2
 // Ecrire une 2ème variable qui contient la chaîne de caractères "5".
-
+var num2 = "5" ;
 
 
 

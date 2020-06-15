@@ -39,13 +39,21 @@ console.log(otherStuff);
 // Pour chaque variable, suivre cet exemple de pseudo code :
 // "mon prénom, {name}, est de type {type de name}"
 
-console.log("mon Prénom" + firstName);
+console.log("mon Prénom" + ":" + firstName);
 
-console.log("Age" + age);
+console.log(typeof firstName);
 
-console.log("football" + likeFootball);
+console.log("Age" + ":" + age);
 
-console.log("other stuff" + otherStuff);
+console.log(typeof age);
+
+console.log("football" + ":" + likeFootball);
+
+console.log (typeof likeFootball);
+
+console.log("other stuff" + ":" + otherStuff);
+
+console.log (typeof otherStuff);
 
 // ------ TODO 3 ------
 // TODO: ÉTAPE 1
@@ -57,7 +65,7 @@ var myNumber = 9;
 // TODO: ÉTAPE 2
 // Afficher dans la console le type de myNumber.
 
-console.log(typeofmyNumber);
+console.log(typeof myNumber);
 
 
 // TODO: ÉTAPE 3
@@ -69,7 +77,7 @@ myNumber = "1 2 3 4";
 // TODO: ÉTAPE 4
 // Afficher dans la console le type de myNumber.
 
-console.log(typeofmyNumber);
+console.log(typeof myNumber);
 
 
 
@@ -92,7 +100,7 @@ console.log(test2);
 // TODO: ÉTAPE 3
 // Ecrire une 3ème variable qui contient la somme (c = a + b) de la 1ère et la 2ème variable.
 
-var somme = test + test2;
+var somme = test + " " + test2;
 
 
 

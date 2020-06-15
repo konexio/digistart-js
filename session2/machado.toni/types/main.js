@@ -7,36 +7,26 @@ console.log('Vous êtes dans les exercices sur les types');
 // Écrire 4 variables, 1 en dessous de chaque ligne avec leurs valeurs :
 // - une variable qui s'appelle firstName de type string qui contient votre prénom
 
-
-
+var firstName = "tonie"; 
 // TODO: ÉTAPE 2
 // - une variable qui s'appelle age de type number qui contient votre age
 
-
-
+var age = 34
 // TODO: ÉTAPE 3
 // - une variable qui s'appelle likeFootball de type boolean qui indique si vous aimez le football ou non
 
-
-
+var likeFootball = true;
 // TODO: ÉTAPE 4
 // - une variable qui s'appelle otherStuff de valeur null
 
-
-
-
+var otherStuff = null;
 // ------ TODO 2 ------ 
 // TODO: ÉTAPE 1
 // Afficher dans la console la valeur et le type de chaque variable.
 // Pour chaque variable, suivre cet exemple de pseudo code :
 // "mon prénom, {name}, est de type {type de name}"
 
-
-
-
-
-
-
+console.log(fisrtName + " " + typeof("firstName"));
 
 // ------ TODO 3 ------ 
 // TODO: ÉTAPE 1

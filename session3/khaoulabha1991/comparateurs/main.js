@@ -16,8 +16,7 @@ var myAge=28;
 // 3. Comparez les variables neighbourAge et monAge en utilisant des comparateurs (<, <=, >, >=, ===, !== ...)
 // puis affichez le résultat des comparaisons dans la console avec la méthode "console.log".
 
-neighbourAge!==myAge;
-console.log(neighbourAge!==myAge);
+console.log(neighbourAge>=myAge);
 
 
 
@@ -26,11 +25,21 @@ console.log(neighbourAge!==myAge);
 // qui affiche le plus grand des deux dans la console.
 
 
+ function showGreaterNumber(a,b){
+if (a>b){
+    console.log(a);
+}
+else{
+    console.log(b);
+}
+ }
 
 
 // 2. L'exécuter avec les paramètres de votre choix.
 
-
+showGreaterNumber(6,8);
+showGreaterNumber(30,20);
+showGreaterNumber(1,7);
 
 
 // ------ TODO 3 ------
@@ -38,6 +47,18 @@ console.log(neighbourAge!==myAge);
 // qui renvoie un booléen indiquant si la variable est un nombre compris entre 1000 et 3000.
 
 
+function isBetween1000And3000 (x){
+        console.log("--->")
+        console.log(x >= 1000);
+        console.log(x <= 3000);
+        console.log("<---")
+        return ((x >= 1000) && (x <= 3000));
+    }
+
 
 
 // 2. L'exécuter avec le paramètre de votre choix.
+conmouseleave.log(isBetween1000And3000(500));
+conmouseleave.log(isBetween1000And3000(1500));
+conmouseleave.log(isBetween1000And3000(30));
+conmouseleave.log(isBetween1000And3000(2800));

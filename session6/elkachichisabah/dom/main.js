@@ -18,23 +18,22 @@ button.innerthtml = "nouveautexte";
 // ------ TODO 3 ------
 // Créez une variable récupérant tous les éléments de type paragraphe.
 
-var paragraphes = document.getElementByparagraphs;
-
-
+var paragraphe = document.getElementsByTagName("p");
 
 // ------ TODO 4 ------
 // Créez une variable récupérant le paragraphe avec la classe "blue".
 
-
+var pBlue = document.querySelector("p.blue");
 
 
 // ------ TODO 5 ------
 // Créez une variable récupérant le paragraphe avec l'id "hideMe".
 
-
+var hideMe = document.querySelector("p#hideMe");
 
 
 // ------ TODO 6 ------
 // Modifiez le style du paragraphe avec l'id "hideMe" pour le faire disparaître.
 
 
+hideMe.style.display = "none";

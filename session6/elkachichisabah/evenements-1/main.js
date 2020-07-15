@@ -7,4 +7,7 @@ console.log("Vous êtes dans l'exercice 1 sur les événements");
 // Elle devra afficher une alerte avec le texte "Vous avez cliqué sur le bouton !"
 
 
+function testButton() {
 
+    alert("Yes!");
+}

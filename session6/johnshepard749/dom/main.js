@@ -6,18 +6,19 @@ console.log("Vous êtes dans l'exercice 1 sur le DOM");
 // Créez une variable récupérant l'élément button ayant l'id "myButton" du HTML.
 
 
-var buttonElement = document.getElementById("mybutton");
+ var button = document.getElementById("mybutton");
 
 // ------ TODO 2 ------
 // Modifier le texte de l'élément button grâce à sa propriété innerHTML.
-document.getElementById("mybutton").innerHTML
+
+button.innerHTML = "bonjour";
 
 
 
 // ------ TODO 3 ------
 // Créez une variable récupérant tous les éléments de type paragraphe.
 
-
+var paragraph = document.getElementsByTagName("p");
 
 
 
@@ -25,12 +26,12 @@ document.getElementById("mybutton").innerHTML
 // Créez une variable récupérant le paragraphe avec la classe "blue".
 
 
-
+var paragrapheB = document.getElementsByClassName("blue");
 
 // ------ TODO 5 ------
 // Créez une variable récupérant le paragraphe avec l'id "hideMe".
 
-
+var paragraphe = document.getElementById("hideMe");
 
 
 // ------ TODO 6 ------

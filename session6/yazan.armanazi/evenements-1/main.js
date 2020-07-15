@@ -8,3 +8,6 @@ console.log("Vous êtes dans l'exercice 1 sur les événements");
 
 
 
+function testButton(event) {
+    alert ("Le bouton a été cliqué !");
+ }

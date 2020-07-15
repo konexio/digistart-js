@@ -6,7 +6,7 @@ console.log("Vous êtes dans l'exercice 3 sur les événements");
 // Créez une variable récupérant l'élément button du HTML.
 
 
-
+var button = document.getElementById("Button");
 
 
 // ------ TODO 2 ------
@@ -14,13 +14,15 @@ console.log("Vous êtes dans l'exercice 3 sur les événements");
 // Elle devra modifier le texte du bouton par un nombre aléatoire.
 // Pour obtenir un nombre aléatoire, utiliser Math.random().
 
+function changeText() {
 
-
+    button.innerHTML = Math.random();
+}
 
 
 // ------ TODO 3 ------
 // Attacher un événement "click" sur le bouton, et appeler la fonction lors du clic.
 
-
+button.addEventListener("click", changeText);
 
 

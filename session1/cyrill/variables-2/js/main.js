@@ -42,6 +42,6 @@ console.log(color);
 
 var agePlusOne;
 
-agePlusOne = 26;
+agePlusOne = age + 1;
 
 console.log(agePlusOne);

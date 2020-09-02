@@ -3,7 +3,6 @@ console.log('Bienvenue dans votre deuxième exercice JavaScript !');
 // TODO: ÉTAPE 1
 // Déclarer deux variables nommées "color" et "age"
 // sans leur assigner de valeur.
-
 var color;
 var age;
 
@@ -47,6 +46,6 @@ console.log(color);
 
 var agePlusOne;
 
-agePlusOne = 26 + 1;
+agePlusOne = age + 1;
 
 console.log(agePlusOne);

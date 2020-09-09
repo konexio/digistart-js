@@ -30,7 +30,8 @@ var otherStuff = null;
 // Pour chaque variable, suivre cet exemple de pseudo code :
 // "mon prénom, {name}, est de type {type de name}"
 
-console.log('mon prénom', firstName, 'est de type', typeof firstName);
+console.log('mon prénom', firstName, 'est de type', addTwo(1));
+console.log('mon prénom', 'Olivier', 'est de type', 3);
 console.log('mon âge', age, 'est de type', typeof age);
 console.log(
   'mon affinité pour le football',

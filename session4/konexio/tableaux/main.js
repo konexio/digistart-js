@@ -2,12 +2,12 @@
 console.log('Bienvenue dans la console javascript');
 console.log('Vous êtes dans les exercices sur les tableaux (arrays)');
 
-// ------ TODO 1 ------ 
+// ------ TODO 1 ------
 var prices = [12, 3, 25, 4, 987, 22, 15];
 
 // 1. En accédant aux éléments du tableau, faire en sorte que le chiffre 4 s'affiche dans la console.
 
-
+console.log(prices[4]);
 
 // 2. Afficher dans la console la longueur du tableau "prices".
 
@@ -18,7 +18,7 @@ var prices = [12, 3, 25, 4, 987, 22, 15];
 
 
 
-// ------ TODO 2 ------ 
+// ------ TODO 2 ------
 var random = ["A", null, 123, "hello", true];
 
 // 1. En accédant aux éléments du tableau, remplacer un élément du tableau.
@@ -30,7 +30,7 @@ var random = ["A", null, 123, "hello", true];
 
 
 
-// ------ TODO 3 ------ 
+// ------ TODO 3 ------
 var array = [1, 2, 3, 5, 6, 7, 9, 10];
 
 // 1. Ajouter dans le tableau les éléments 4 et 8 manquants grâce à la méthode splice afin d'obtenir le tableau suivant :
@@ -56,7 +56,7 @@ var array = [1, 2, 3, 5, 6, 7, 9, 10];
 
 
 
-// ------ TODO 4 ------ 
+// ------ TODO 4 ------
 var array = ["B", "A", "C", "E", "D"];
 
 // 1. Trier le tableau dans l'ordre alphabétique croissant grâce à la méthode sort.
@@ -72,7 +72,7 @@ var array = ["B", "A", "C", "E", "D"];
 
 
 
-// ------ TODO 5 ------ 
+// ------ TODO 5 ------
 var array = ["Michael", "Jordan", "Laeticia", "Julie"];
 
 // 1. Ecrire une fonction qui renvoie le dernier élément du tableau passé en paramètre.

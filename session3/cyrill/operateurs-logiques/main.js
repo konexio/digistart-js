@@ -50,7 +50,7 @@ console.log(var1 && var2);
 // Écrire le code pour afficher les valeurs booléennes avec la fonction Boolean() pour:
 // 1. "a"
 
-console.log(Bo)
+
 
 // 2. ""
 

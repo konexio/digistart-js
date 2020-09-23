@@ -2,7 +2,7 @@
 
 ## Session 1
 
-[Cours](https://docs.google.com/presentation/d/1ioSohuL57ORyZUNrZ9R8EAF_4HEa9Ixz3JYkODryxl0/edit?usp=sharing)
+[Cours](https://docs.google.com/presentation/d/1L8-pXAcH1KNS6C4ZYMJ_nEaI4_WHsAfFIVyChynmiiQ/edit)
 
 ### Introduction au métier de développeur et à JavaScript
 
@@ -12,7 +12,7 @@
 
 ## Session 2
 
-[Cours](https://docs.google.com/presentation/d/1hB2CBs9XxuerDICUZ7RDUtSYZ2_3ItB1R8x9U4Ivk04/edit?usp=sharing)
+[Cours](https://docs.google.com/presentation/d/186HrycIb3d5n4YhghtT-DGW4dVPIFALjmTYevwp4xag/edit)
 
 ### Types de données et fonctions
 
@@ -22,7 +22,7 @@
 
 ## Session 3
 
-[Cours](https://docs.google.com/presentation/d/1IDQVySaBvrb7rtfUdPjtlYb8OaruPb-c3IcvX4f8VhY/edit?usp=sharing)
+[Cours](https://docs.google.com/presentation/d/1i3ZnJOIlNy_TXE84twwtku4l4ADp5VU0cezL5TqANZs/edit)
 
 ### Opérateurs et conditions 
 
@@ -32,7 +32,7 @@
 
 ## Session 4
 
-[Cours](https://docs.google.com/presentation/d/1VXu-NCERj-_7XEBckeGLZY11s5_rtOrEG2Afdcm2ZDY/edit?usp=sharing)
+[Cours](https://docs.google.com/presentation/d/1FToOfr0RX5_4Lf7ItfJ6-6mBb51qHn3X0Mi2uxg8F4o/edit)
 
 ### Structures de données
 
@@ -41,7 +41,7 @@
 
 ## Session 5
 
-[Cours](https://docs.google.com/presentation/d/1ZBUjJ0e4IiRI3fEd1dxDPHdzqAay7xhbxBFgrOwER40/edit?usp=sharing)
+[Cours](https://docs.google.com/presentation/d/1x2XmbhvMwl5xGLH329G0eiBdjKAo85ssXZKMNIm9lOk/edit)
 
 ### Boucles 
 
@@ -50,7 +50,7 @@
 
 ## Session 6
 
-[Cours](https://docs.google.com/presentation/d/1j9Yx3qSJmcU9IzF9nUNEUn9Bde94R4PP53CYA-_tCRk/edit?usp=sharing)
+[Cours](https://docs.google.com/presentation/d/17YxGnNZnvar846mq0-ce1QX5SNTD-0LzZmQI4jZeBeI/edit)
 
 ### Manipulation du DOM 
 

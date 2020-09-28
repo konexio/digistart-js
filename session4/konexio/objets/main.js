@@ -61,17 +61,21 @@ console.log(users[0].name);
 // ------ TODO 4 ------
 var car = {
   brand: 'Ford',
-  speed: 100
+  speed: 100,
+  drive: function drive(){
+    console.log("Vroom !");
+  },
 };
 
 // 1. Ajouter une méthode "drive" à l'objet car qui affiche dans la console "Vroom !".
 
 
 
+
 // 2. Appeller la méthode drive à partir de l'objet car.
 
 
-
+car.drive();
 
 // ------ TODO 5 ------
 var library = [
@@ -93,13 +97,36 @@ var library = [
 
 // 1. Changer la propriété read du livre de Steve Jobs à true.
 
+library[1].read = true;
+console.log(library[1]);
 
 
 // 2. Ajouter un nouvel objet correspondant à un livre dans le tableau en suivant le même format.
 
+library.push({
+  author: 'toto',
+  title: 'OuiOui et sa voiture rouge',
+  read: true
+});
 
+console.log(library);
 
 // 3. Supprimer le livre de Suzanne Collins du tableau.
+library.splice(2,1);
+
+console.log(library);
 
 
+console.log("*******TEST LOOP*******");
+
+var i;
+var players = ["toto", "titi", "tata", "tutu"];
+var playerNumber = players.length;
+var text = "";
+
+for (i = 0; i <= playerNumber; i++) {
+    console.log(players[i]);
+}
+
+console.log("je sort!");
 

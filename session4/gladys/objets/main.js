@@ -66,10 +66,16 @@ var car = {
 // 1. Ajouter une méthode "drive" à l'objet car qui affiche dans la console "Vroom !".
 
 
+library[1].read = true;
+console.log(library[1]);
 
 // 2. Appeller la méthode drive à partir de l'objet car.
 
-
+library.push({
+  author: 'toto',
+  title: 'OuiOui et sa voiture rouge',
+  read: true
+});
 
 
 // ------ TODO 5 ------
@@ -92,13 +98,24 @@ var library = [
 
 // 1. Changer la propriété read du livre de Steve Jobs à true.
 
-
+library[1].read = true;
+console.log(library[1]);
 
 // 2. Ajouter un nouvel objet correspondant à un livre dans le tableau en suivant le même format.
 
 
+library.push({
+  author: 'toto',
+  title: 'OuiOui et sa voiture rouge',
+  read: true
+});
+
+console.log(library);
+
 
 // 3. Supprimer le livre de Suzanne Collins du tableau.
+library.splice(2,1);
 
+console.log(library);
 
 

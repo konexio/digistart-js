@@ -73,6 +73,7 @@ var b = [3, 76, 1002, 31, 9, 340, 420, 90, -12, 1];
 // et pour chaque indice, placer la valeur la plus petite dans un
 // nouveau tableau.
 
+
 // TODO: ÉTAPE 10
 // Avec une autre boucle for, additionner les valeurs de `a` ayant un
 // indice pair avec les valeurs de `b` ayant l'indice impair suivant.

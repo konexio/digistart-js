@@ -80,6 +80,19 @@ for (i = 0; i < end ; i++) {
 // une virgule. Afficher cette nouvelle chaîne de caractères dans
 // la console.
 
+console.log("*****TODO: ÉTAPE 8******");
+
+var comaPrenoms = "";
+
+for (i = 0; i < end; i++) {
+    var prenom = prenoms[i];
+    comaPrenoms = comaPrenoms + prenom;
+    if (i < end - 1) {
+        comaPrenoms = comaPrenoms + ", ";
+    }
+}
+console.log('comaPrenoms', comaPrenoms);
+
 var a = [12, 47, 5, 450, 98, 100, 54, 2, 87, 9999];
 var b = [3, 76, 1002, 31, 9, 340, 420, 90, -12, 1];
 
@@ -88,6 +101,19 @@ var b = [3, 76, 1002, 31, 9, 340, 420, 90, -12, 1];
 // et pour chaque indice, placer la valeur la plus petite dans un
 // nouveau tableau.
 
+var minimums = [];
+
+for (i = 0; i < a.length; i++) {
+    var va = a[i];
+    var vb = b[i];
+
+    if (va < vb) {
+        minimums.push(va);
+    } else {
+        minimums.push(vb);
+    }
+}
+console.log(minimums);
 
 // TODO: ÉTAPE 10
 // Avec une autre boucle for, additionner les valeurs de `a` ayant un
@@ -95,3 +121,16 @@ var b = [3, 76, 1002, 31, 9, 340, 420, 90, -12, 1];
 // Placer ces résultats d'addition dans un nouveau tableau à afficher
 // dans la console.
 // Par exemple: a[0] + b[1], a[2] + b[3], etc.
+
+var alternatedSum = 0;
+for (i = 0; i < a.length; i++) {
+    if (i % 2 === 0) {
+        // i est pair
+        alternatedSum += a[i];
+    } else {
+        // i est impair
+        alternatedSum += b[i];
+    }
+}
+
+console.log(alternatedSum);

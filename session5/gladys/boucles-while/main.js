@@ -5,7 +5,11 @@ console.log('Vous êtes dans les exercices sur les boucles while');
 // TODO: ÉTAPE 1
 // À l'aide d'une boucle while, afficher dans la console les nombres
 // de 1 à 10 compris.
-
+var i = 1;
+while (i <= 10) {
+    console.log(i);
+    i++;
+}
 // TODO: ÉTAPE 2
 // Avec une autre boucle while, afficher les mêmes nombres dans la
 // console, mais dans l'ordre inverse.

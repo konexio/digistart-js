@@ -2,13 +2,13 @@
 
 ## Notions traitées
 
-- Créer des fonctions.
-- Appeller des fonctions.
-- Manipuler des variables.
+- Créer des variables de différent types
+- Afficher les types de variables
+- Manipuler les variables selon leur type
 
 ## Description
 
-Dans cet exercice, nous allons étudier les différents types de propriétés dans le language Javascript.  
+Dans cet exercice, nous allons étudier les différents types de propriétés dans le language Javascript.
 Les types de données servent à décrire/représenter les types d'informations (qu'on stocke dans des variables).
 
 ## Instructions

@@ -8,18 +8,29 @@ var nombres = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048];
 // À l'aide d'une boucle for, afficher dans la console toutes les valeurs
 // contenues dans le tableau `nombres`, une par une.
 
+for(var x = 1; x < nombres.length; x++ ){
+    console.log(nombres[x]);
+}
 // TODO: ÉTAPE 2
 // Avec une autre boucle for, afficher dans la console toutes les valeurs
 // du tableau `nombres`, une par une, sauf les deux premières.
-
+for (var x = 2; x < nombres.length; x++){
+    console.log(nombres[x]);
+}
 // TODO: ÉTAPE 3
 // Avec une autre boucle for, afficher dans la console toutes les valeurs
 // du tableau `nombres`, une par une, sauf les trois dernières.
-
+for(var x = 1; x < nombres.length-3;x++){
+console.log(nombres[x])
+}
 // TODO: ÉTAPE 4
 // Avec une autre boucle for, afficher dans la console toutes les valeurs
 // du tableau `nombres`, une par une, mais en commençant par la dernière
 // valeur et en terminant par la première.
+console.clear();
+for(var x = nombres.length - 1; x >= 0;x--){
+    console.log(nombres[x])
+}
 
 // TODO: ÉTAPE 5
 // Avec une autre boucle for, afficher dans la console uniquement les
@@ -28,15 +39,24 @@ var nombres = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048];
 
 var prenoms = ['Ali', 'Nour', 'Jean', 'Carole', 'Ibrahim', 'Alma'];
 
+for(a = 0; a < 6 ; a++ ){
+    if(a % 2 == 0){
+console.log(prenoms[a])
+    }
+}
 // TODO: ÉTAPE 6
 // À l'aide d'une boucle for, afficher dans la console des messages
 // qui saluent chaque prénom contenus dans le tableau `prenoms`.
 // Par exemple : "Bonjour Joseph".
+for (var x = 0; x < prenoms.length; x++){
+    console.log("Bonjour " + prenoms[x]);
+}
 
 // TODO: ÉTAPE 7
 // Avec une autre boucle for, afficher dans la console uniquement
 // le premier prénom contenant plus de 4 lettres.
 
+for ( var a = 1; a <  )
 // TODO: ÉTAPE 8
 // Avec une autre boucle for, construire une nouvelle chaîne de
 // caractères (string) qui contiendra tous les prénoms séparés par

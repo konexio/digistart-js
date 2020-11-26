@@ -8,23 +8,51 @@ var nombres = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048];
 // À l'aide d'une boucle for, afficher dans la console toutes les valeurs
 // contenues dans le tableau `nombres`, une par une.
 
+for(var i=0 ; i < nombres.length ; i++){
+
+    console.log (nombres [i]);
+}
+
 // TODO: ÉTAPE 2
 // Avec une autre boucle for, afficher dans la console toutes les valeurs
 // du tableau `nombres`, une par une, sauf les deux premières.
 
+for(var i=2 ; i < nombres.length ; i++){
+
+    console.log (nombres [i]);
+}
+
+
 // TODO: ÉTAPE 3
 // Avec une autre boucle for, afficher dans la console toutes les valeurs
 // du tableau `nombres`, une par une, sauf les trois dernières.
+
+for(var i=0 ; i < nombres.length -3 ; i++){
+
+    console.log (nombres [i]);
+}
+
 
 // TODO: ÉTAPE 4
 // Avec une autre boucle for, afficher dans la console toutes les valeurs
 // du tableau `nombres`, une par une, mais en commençant par la dernière
 // valeur et en terminant par la première.
 
+for(var i=nombres.length-1 ; i >= 0 ; i--){
+
+    console.log (nombres [i]);
+}
+
+
 // TODO: ÉTAPE 5
 // Avec une autre boucle for, afficher dans la console uniquement les
 // valeurs du tableau `nombres` ayant un indice pair (0, 2, 4, etc.),
 // une par une.
+
+for(var i=0 ; i < nombres.length ; i+=2){
+
+    console.log (nombres [i]);
+    }
 
 var prenoms = ['Ali', 'Nour', 'Jean', 'Carole', 'Ibrahim', 'Alma'];
 
@@ -33,10 +61,20 @@ var prenoms = ['Ali', 'Nour', 'Jean', 'Carole', 'Ibrahim', 'Alma'];
 // qui saluent chaque prénom contenus dans le tableau `prenoms`.
 // Par exemple : "Bonjour Joseph".
 
+for(var i=0 ; i < prenoms.length ; i++){
+
+    console.log ("Bonjour " + prenoms [i])
+}
 // TODO: ÉTAPE 7
 // Avec une autre boucle for, afficher dans la console uniquement
 // le premier prénom contenant plus de 4 lettres.
 
+
+for(var i=0 ; i < prenoms.length ; i++){
+
+    if(prenoms[i].length > 4){
+    console.log(prenoms[i]);
+    }
 // TODO: ÉTAPE 8
 // Avec une autre boucle for, construire une nouvelle chaîne de
 // caractères (string) qui contiendra tous les prénoms séparés par

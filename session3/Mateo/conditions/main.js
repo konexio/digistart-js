@@ -4,12 +4,12 @@ console.log('Vous êtes dans les exercices sur les conditions');
 
 // ------ TODO 1 ------ 
 // 1. Créer une variable color1 qui contient la valeur "rouge"
-
+var color1 = `rouge`
 
 
 
 // 2. Créer une variable color2 qui contient la valeur "green"
-
+var color2 = `green`
 
 
 
@@ -18,7 +18,14 @@ console.log('Vous êtes dans les exercices sur les conditions');
 // - si la variable est égale à "green", affichez "pomme" dans la console
 
 
+    if (color1 == `rouge`) { // tes variables c'est celles que tu as fait au dessus ;)
+        console.log(`fraise`)
+    }
+    else if (color1 == `green`) {
+        console.log(`pomme`) //console pas display ;) hahahaha merci, de rien chef
+    }
 
+// la même chose avec color2
 
 
 // ------ TODO 2 ------ 

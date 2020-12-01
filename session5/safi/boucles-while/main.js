@@ -5,16 +5,26 @@ console.log('Vous êtes dans les exercices sur les boucles while');
 // TODO: ÉTAPE 1
 // À l'aide d'une boucle while, afficher dans la console les nombres
 // de 1 à 10 compris.
-
+var a = 1;
+while(a <= 10){
+    console.log(a);
+    a++;
+}
 // TODO: ÉTAPE 2
 // Avec une autre boucle while, afficher les mêmes nombres dans la
 // console, mais dans l'ordre inverse.
 
 var nombres = [45, 2, 89, 12, 44, 29, 11, 3];
+  var a = nombres.length-1 ;
+  while(a >= 0){
+      console.log(nombres[a])
+      a--
+  }
 
 // TODO: ÉTAPE 3
 // À l'aide d'une boucle while, afficher les valeurs du tableau `nombres`
 // dans la console jusqu'à la valeur égale à 29.
+
 
 // TODO: ÉTAPE 4
 // Avec une autre boucle while, afficher les valeurs du tableau `nombres`
@@ -25,6 +35,12 @@ var prenoms = ['Ali', 'Nora', 'Jean', 'Carole', 'Ibrahim', 'Joseph'];
 // TODO: ÉTAPE 5
 // À l'aide d'une boucle while, afficher les valeurs du tableau `prenoms`
 // tant que leur longueur ne dépasse pas 5 caractères.
+var i = 0;
+while(prenom[i].length < 5){
+    console.log(prenoms[i]);
+    i++;
+
+}
 
 // TODO: ÉTAPE 6
 // Avec une autre boucle while, afficher les valeurs du tableau `prenoms`

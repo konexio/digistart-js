@@ -8,92 +8,71 @@ console.log('Vous êtes dans les exercices sur les objets (objects)');
 // - name : Votre nom
 // - age : Votre age
 // - city: Votre ville
-
-
+var student = {
+  name: 'Belal',
+  age: 23,
+  city: 'Paris',
+};
+//bravo  MERCI :) ;)
 
 // 2. Afficher dans la console l'objet student.
-
-
-
-
+console.log(student);
 // ------ TODO 2 ------
 var user = {
   name: 'John',
-  age: 30
+  age: 30,
 };
 
 // 1. Ajouter une propriété (clé) "city" de valeur "Paris" à l'objet user.
-
-
-
+user.city = 'Paris';
 // 2. Afficher dans la console l'âge de John.
-
-
-
+console.log(user.age); // <-- ça marche ? Oui
 // 3. Remplacer la valeur de "city" avec "Nice".
-
-
-
+user.city = 'Nice';
 // 4. Afficher dans la console un tableau des propriétés (clés) de l'objet user grâce à la méthode keys.
 
-
-
-
+// Méthode keys : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Object/keys
+// hahahaha---- Oject.keys(monObjet) -- ;) ca va? object1 c'est quoi ? normalement c'est l'objet qu'il faut mettre entre parenthèses
+console.log(Object.keys(user)); // yes
 // ------ TODO 3 ------
 var users = [user, { name: 'Emma', age: 32, city: 'London' }];
 
 // 1. Afficher dans la console l'objet dont le name est "Emma".
-
-
-
+console.log(Object);
 // 2. Afficher dans la console "John", en accédant aux élements du tableau
 // puis à la propriété de l'objet.
-
-
-
 
 // ------ TODO 4 ------
 var car = {
   brand: 'Ford',
-  speed: 100
+  speed: 100,
 };
 
 // 1. Ajouter une méthode "drive" à l'objet car qui affiche dans la console "Vroom !".
 
-
-
 // 2. Appeller la méthode drive à partir de l'objet car.
-
-
-
 
 // ------ TODO 5 ------
 var library = [
   {
     author: 'Bill Gates',
     title: 'The Road Ahead',
-    read: true
+    read: true,
   },
   {
     author: 'Walter Isaacson',
     title: 'Steve Jobs',
-    read: false
+    read: false,
   },
   {
     author: 'Suzanne Collins',
     title: 'Mockingjay: The Final Book of The Hunger Games',
-    read: false
-}];
+    read: false,
+  },
+];
 
 // 1. Changer la propriété read du livre de Steve Jobs à true.
 
-
-
 // 2. Ajouter un nouvel objet correspondant à un livre dans le tableau en suivant le même format.
 
-
-
 // 3. Supprimer le livre de Suzanne Collins du tableau.
-
-
-

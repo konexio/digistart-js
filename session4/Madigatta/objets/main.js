@@ -8,92 +8,75 @@ console.log('Vous êtes dans les exercices sur les objets (objects)');
 // - name : Votre nom
 // - age : Votre age
 // - city: Votre ville
+var student = {
+  name: 'Doucoure',
+  age: 20,
+  city: 'paris',
+};
 
-
-
+// hello
 // 2. Afficher dans la console l'objet student.
-
-
-
+console.log(student);
 
 // ------ TODO 2 ------
 var user = {
   name: 'John',
-  age: 30
+  age: 30,
 };
 
 // 1. Ajouter une propriété (clé) "city" de valeur "Paris" à l'objet user.
-
-
+user.city = 'paris';
 
 // 2. Afficher dans la console l'âge de John.
-
-
+console.log(user.age);
 
 // 3. Remplacer la valeur de "city" avec "Nice".
-
-
+user.city = 'Nice';
 
 // 4. Afficher dans la console un tableau des propriétés (clés) de l'objet user grâce à la méthode keys.
 
-
-
-
 // ------ TODO 3 ------
 var users = [user, { name: 'Emma', age: 32, city: 'London' }];
-
+console.log(user.keys);
 // 1. Afficher dans la console l'objet dont le name est "Emma".
-
-
+console.log(users[1].name);
 
 // 2. Afficher dans la console "John", en accédant aux élements du tableau
 // puis à la propriété de l'objet.
-
-
-
-
+console.log;
 // ------ TODO 4 ------
 var car = {
   brand: 'Ford',
-  speed: 100
+  speed: 100,
 };
 
 // 1. Ajouter une méthode "drive" à l'objet car qui affiche dans la console "Vroom !".
 
-
-
 // 2. Appeller la méthode drive à partir de l'objet car.
-
-
-
 
 // ------ TODO 5 ------
 var library = [
   {
     author: 'Bill Gates',
     title: 'The Road Ahead',
-    read: true
+    read: true,
   },
   {
     author: 'Walter Isaacson',
     title: 'Steve Jobs',
-    read: false
+    read: false,
   },
   {
     author: 'Suzanne Collins',
     title: 'Mockingjay: The Final Book of The Hunger Games',
-    read: false
-}];
+    read: false,
+  },
+];
 
 // 1. Changer la propriété read du livre de Steve Jobs à true.
-
-
+library[1].read = true;
 
 // 2. Ajouter un nouvel objet correspondant à un livre dans le tableau en suivant le même format.
-
-
-
+library.push('Javascript');
 // 3. Supprimer le livre de Suzanne Collins du tableau.
-
-
-
+library.pop('Suzanne  Collins');

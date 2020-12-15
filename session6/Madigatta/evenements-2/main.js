@@ -12,12 +12,9 @@ console.log(monButton);
 // Créer la fonction qui sera appelée dans le TODO3.
 // Elle devra afficher dans la console "Le bouton a été cliqué",
 // ainsi qu'une alerte "Click !".
-
-function buttonClique() {
-  console.log('toto');
-  alert('TYO !');
+function Button() {
+  console.log('Le bouton a été cliqué');
+  alert('Click  !');
 }
-
-// ------ TODO 3 ------
-// Attacher un événement "click" sur le bouton, et appeler la fonction lors du clic.
-monButton.addEventListener('Click', buttonClique);
+function monButton(params) {}
+monButton.addEventListener('click', Button);

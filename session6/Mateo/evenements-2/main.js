@@ -4,7 +4,6 @@ console.log("Vous êtes dans l'exercice 2 sur les événements");
 
 // ------ TODO 1 ------
 // Créez une variable récupérant l'élément button du HTML.
-
 var monButton = document.getElementsByTagName('button')[0];
 console.log(monButton);
 
@@ -13,11 +12,11 @@ console.log(monButton);
 // Elle devra afficher dans la console "Le bouton a été cliqué",
 // ainsi qu'une alerte "Click !".
 
-function buttonClique() {
-  console.log('toto');
-  alert('TYO !');
+function clique() {
+  console.log('Le bouton a été cliqué');
+  alert('Click !');
 }
 
-// ------ TODO 3 ------
-// Attacher un événement "click" sur le bouton, et appeler la fonction lors du clic.
-monButton.addEventListener('Click', buttonClique);
+clique(monButton);
+
+monButton.addEventListener('click', clique);

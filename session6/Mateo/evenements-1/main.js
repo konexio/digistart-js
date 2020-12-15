@@ -5,7 +5,6 @@ console.log("Vous êtes dans l'exercice 1 sur les événements");
 // ------ TODO 1 ------
 // Créer la fonction appelée par le bouton que vous avez créé dans le HTML.
 // Elle devra afficher une alerte avec le texte "Vous avez cliqué sur le bouton !"
-
 function testButton() {
-  alert('Vous avez cliqué sur le bouton');
+  alert('Vouz avez cliqué sur le button');
 }

@@ -5,9 +5,8 @@ console.log("Vous êtes dans l'exercice 3 sur les événements");
 // ------ TODO 1 ------
 // Créez une variable récupérant l'élément button du HTML.
 
-var monButton = document.getElementById('toto');
-
-console.log(monButton.innerHTML);
+var monButton = document.getElementsByTagName("button")
+console.log(monButton)
 
 // ------ TODO 2 ------
 // Créer la fonction qui sera appelée dans le TODO3.
@@ -15,11 +14,15 @@ console.log(monButton.innerHTML);
 // Pour obtenir un nombre aléatoire, utiliser Math.random().
 
 function nombreAleatoire() {
-  console.log('hello');
-  monButton.innerHTML = Math.random();
-}
+    console.log('hello');
+    monButton.innerHTML = Math.random();
+
+
+
 
 // ------ TODO 3 ------
 // Attacher un événement "click" sur le bouton, et appeler la fonction lors du clic.
+
+
 
 monButton.addEventListener('click', nombreAleatoire);

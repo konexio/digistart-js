@@ -6,7 +6,7 @@ console.log('Vous êtes dans les exercices sur les opérateurs logiques');
 // Écrire le code pour obtenir la valeur booléenne des cas suivants:
 // 1. faux ou faux
 
-
+console.log(false || false);
 
 // 2. vrai et vrai
 

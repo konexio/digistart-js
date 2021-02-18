@@ -6,17 +6,17 @@ console.log('Vous êtes dans les exercices sur les comparateurs');
 // 1. Créer une variable neighbourAge qui contient l'âge de votre voisin
 
 
-
+var neighbourAge = 32;
 
 // 2. Créer une variable myAge qui contient votre âge
 
-
+var myAge = 34;
 
 
 // 3. Comparez les variables neighbourAge et monAge en utilisant des comparateurs (<, <=, >, >=, ===, !== ...)
 // puis affichez le résultat des comparaisons dans la console avec la méthode "console.log".
 
-
+neighbourAge < myAge 
 
 
 
@@ -26,6 +26,7 @@ console.log('Vous êtes dans les exercices sur les comparateurs');
 
 
 
+h
 
 // 2. L'exécuter avec les paramètres de votre choix.
 
@@ -40,3 +41,4 @@ console.log('Vous êtes dans les exercices sur les comparateurs');
 
 
 // 2. L'exécuter avec le paramètre de votre choix.
+log console()

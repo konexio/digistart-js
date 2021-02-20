@@ -20,6 +20,18 @@ function selectChange() {
   // Pour changer la couleur de fond du body, il faut utiliser le code ci-dessous:
   // document.body.style.backgroundColor = '...';
 
+  if (color === "rouge") {
+    document.body.style.backgroundColor = "red";
+  }
+  else if (color == "vert") {
+    document.body.style.backgroundColor = "green";
+  }
+  else if (color == "bleu") {
+    document.body.style.backgroundColor = "blue";
+  }
+  else {
+    document.body.style.backgroundColor = "purple";
+  }
 
   /* MON CODE EN DESSOUS */
 

@@ -5,15 +5,14 @@ console.log('Vous êtes dans les exercices sur les objets (objects)');
 // ------ TODO 1 ------
 
 // 1. Déclarer une variable student qui contient un objet avec les propriétés et valeurs suivantes :
-// - name : Votre nom
+// - name : Votre  
 // - age : Votre age
 // - city: Votre ville
-
+var student = { name: "Lila", age: 13, city: "Lyon" };
 
 
 // 2. Afficher dans la console l'objet student.
-
-
+console.log('student');
 
 
 // ------ TODO 2 ------
@@ -24,19 +23,21 @@ var user = {
 
 // 1. Ajouter une propriété (clé) "city" de valeur "Paris" à l'objet user.
 
-
+user.city = "paris"
+user["city"] = "paris"
 
 // 2. Afficher dans la console l'âge de John.
-
-
+console.log(user.age);
+console.log(user[age]);
 
 // 3. Remplacer la valeur de "city" avec "Nice".
 
-
+user["city"] = "Nice"
+//user.city = "Nice"
 
 // 4. Afficher dans la console un tableau des propriétés (clés) de l'objet user grâce à la méthode keys.
-
-
+// Object.keys(NOM DE L OBJET), le O doit être en majuscule ^^
+Object.keys(user);
 
 
 // ------ TODO 3 ------
@@ -83,7 +84,7 @@ var library = [
     author: 'Suzanne Collins',
     title: 'Mockingjay: The Final Book of The Hunger Games',
     read: false
-}];
+  }];
 
 // 1. Changer la propriété read du livre de Steve Jobs à true.
 

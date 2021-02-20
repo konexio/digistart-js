@@ -19,7 +19,15 @@ function passwordMeter(value) {
 
   // Pour changer la couleur de fond de l'input, utilise le code ci-dessous:
   // document.getElementById('password-input').style.backgroundColor = 'red';
-
+  if (passwordLength > 0 && passwordLength < 4) {
+    document.getElementById('password-input').style.backgroundColor = 'red';
+  }
+  else if (passwordLength > 4 && passwordLength < 8) {
+    document.getElementById('password-input').style.backgroundColor = 'orange';
+  }
+  else if (passwordLength > 8 && passwordLength < 20) {
+    document.getElementById('password-input').style.backgroundColor = 'green';
+  }
   // Les règles sont les suivantes:
   // caractères |   couleur
   // 0 à 4      |   rouge

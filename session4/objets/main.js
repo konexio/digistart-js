@@ -85,7 +85,7 @@ var library = [
     read: false
 }];
 
-// 1. Changer la propriété read du livre de Steve Jobs à true.
+// 1. Changer la propriété read du livre titré 'Steve Jobs' à true.
 
 
 

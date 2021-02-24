@@ -46,13 +46,18 @@ console.log(Object.keys(user));
 var users = [user, { name: 'Emma', age: 32, city: 'London' }];
 
 // 1. Afficher dans la console l'objet dont le name est "Emma".
+console.log(users[1]);
 
+/*var userEmma = users.find(function(element){
+  return element.name == "Emma"; 
+}); 
+console.log("User Emma", userEmma); */
 
 
 // 2. Afficher dans la console "John", en accédant aux élements du tableau
 // puis à la propriété de l'objet.
 
-
+console.log(users[0].name);
 
 
 // ------ TODO 4 ------
@@ -62,41 +67,54 @@ var car = {
 };
 
 // 1. Ajouter une méthode "drive" à l'objet car qui affiche dans la console "Vroom !".
-
+car.drive = function () {
+  console.log("Vroom !");
+}
 
 
 // 2. Appeller la méthode drive à partir de l'objet car.
-
+car.drive();
 
 
 
 // ------ TODO 5 ------
 var library = [
-  {
+  { // 0
     author: 'Bill Gates',
     title: 'The Road Ahead',
     read: true
   },
-  {
+  { // 1
     author: 'Walter Isaacson',
     title: 'Steve Jobs',
     read: false
   },
-  {
+  { // 2
     author: 'Suzanne Collins',
     title: 'Mockingjay: The Final Book of The Hunger Games',
     read: false
   }];
 
-// 1. Changer la propriété read du livre de Steve Jobs à true.
-
+// 1. Changer la propriété read du livre dont le titre est 'Steve Jobs' à true.
+var bookSteveJobs = library[1];
+bookSteveJobs.read = true;
+console.log(library);
 
 
 // 2. Ajouter un nouvel objet correspondant à un livre dans le tableau en suivant le même format.
+var newBook = {
+  author: "Konexio",
+  title: "Digistart - Javascript",
+  read: false
+};
 
+library.push(newBook);
+console.log(library);
 
 
 // 3. Supprimer le livre de Suzanne Collins du tableau.
+library.splice(2, 1);
+console.log(library);
 
 
 

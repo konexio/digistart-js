@@ -7,24 +7,39 @@ var nombres = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048];
 // TODO: ÉTAPE 1
 // À l'aide d'une boucle for, afficher dans la console toutes les valeurs
 // contenues dans le tableau `nombres`, une par une.
+for (var i = 0; i < nombres.length; i++) {
+    console.log(nombres[i]);
+}
 
 // TODO: ÉTAPE 2
 // Avec une autre boucle for, afficher dans la console toutes les valeurs
 // du tableau `nombres`, une par une, sauf les deux premières.
+for (var i = 2; i < nombres.length; i++) {
+    console.log(nombres[i]);
+}
 
 // TODO: ÉTAPE 3
 // Avec une autre boucle for, afficher dans la console toutes les valeurs
 // du tableau `nombres`, une par une, sauf les trois dernières.
+for (var i = 0; i < nombres.length - 3; i++) {
+    console.log(nombres[i]);
+}
 
 // TODO: ÉTAPE 4
 // Avec une autre boucle for, afficher dans la console toutes les valeurs
 // du tableau `nombres`, une par une, mais en commençant par la dernière
 // valeur et en terminant par la première.
+for (var i = nombres.length - 1; i >= 0; i--) {
+    console.log(nombres[i]);
+}
 
 // TODO: ÉTAPE 5
 // Avec une autre boucle for, afficher dans la console uniquement les
 // valeurs du tableau `nombres` ayant un indice pair (0, 2, 4, etc.),
 // une par une.
+for (var i = 0; i < nombres.length; i += 2) {
+    console.log(nombres[i]);
+}
 
 var prenoms = ['Ali', 'Nour', 'Jean', 'Carole', 'Ibrahim', 'Alma'];
 

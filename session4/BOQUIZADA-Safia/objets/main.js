@@ -44,13 +44,12 @@ Object.keys(user);
 var users = [user, { name: 'Emma', age: 32, city: 'London' }];
 
 // 1. Afficher dans la console l'objet dont le name est "Emma".
-
-
+console.log(users[1]);
 
 // 2. Afficher dans la console "John", en accédant aux élements du tableau
 // puis à la propriété de l'objet.
 
-
+console.log(user.name)
 
 
 // ------ TODO 4 ------
@@ -60,12 +59,14 @@ var car = {
 };
 
 // 1. Ajouter une méthode "drive" à l'objet car qui affiche dans la console "Vroom !".
-
+car.drive = function(){
+  console.log("vroom")
+}
 
 
 // 2. Appeller la méthode drive à partir de l'objet car.
 
-
+car.drive();
 
 
 // ------ TODO 5 ------
@@ -87,14 +88,19 @@ var library = [
   }];
 
 // 1. Changer la propriété read du livre de Steve Jobs à true.
+var bookSteveJobs = library[1]; 
+bookSteveJobs.read = true; 
+console.log(library); 
 
 
 
 // 2. Ajouter un nouvel objet correspondant à un livre dans le tableau en suivant le même format.
-
+library.push({author:"lila", title:"html", read:true})
 
 
 // 3. Supprimer le livre de Suzanne Collins du tableau.
 
+library.splice(2, 1);
+console.log(library);
 
 

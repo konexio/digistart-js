@@ -22,7 +22,16 @@ function selectChange() {
 
 
   /* MON CODE EN DESSOUS */
-
+ 
+    if (color === "bleu"){
+      document.body.style.backgroundColor = "blue";
+    }
+    else if (color === "rouge"){
+      document.body.style.backgroundColor = "red";
+    }
+    else if (color === "vert"){
+      document.body.style.backgroundColor = "green";
+    }
   /* MON CODE AU DESSUS */
 
 };

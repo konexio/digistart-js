@@ -37,7 +37,7 @@ var array = [1, 2, 3, 5, 6, 7, 9, 10];
 // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // Documentation de la méthode splice : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Array/splice
 
-
+array.splice(4, 8);
 
 // 2. Afficher le tableau dans la console.
 

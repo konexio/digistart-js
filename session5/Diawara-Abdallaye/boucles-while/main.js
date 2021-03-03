@@ -34,7 +34,7 @@ var prenoms = ['Ali', 'Nora', 'Jean', 'Carole', 'Ibrahim', 'Joseph'];
 // Avec une autre boucle while, utiliser la méthode pop() sur le tableau
 // `prenoms` pour retirer une valeur du tableau et l'afficher dans la
 // console tant que le tableau n'est pas vide.
-// Documentation de la méthode Array.prototype.pop() : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Array/pop
+// Documentation de la méthode Array.prototype.pop() : https://.mdeveloperozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Array/pop
 
 // TODO: ÉTAPE 8
 // À l'aide d'une boucle while, afficher le résultat de la fonction

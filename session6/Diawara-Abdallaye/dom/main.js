@@ -4,6 +4,8 @@ console.log("Vous êtes dans l'exercice 1 sur le DOM");
 
 // ------ TODO 1 ------
 // Créez une variable récupérant l'élément button ayant l'id "myButton" du HTML.
+var button = document.
+
 
 
 

@@ -24,7 +24,7 @@ console.log('Bienvenue dans votre deuxième exercice JavaScript !');
 // Afficher de nouveau la variable color dans la console.
 
 // TODO: ÉTAPE 7 BONUS
-// Créer une nouvelle variable agePlusUn avec
+// Créer une nouvelle variable agePlusOne avec
 // la valeur de l'âge que vous aurez l'année prochaine,
 // en réutilisant la valeur stockée dans la variable age
 // et afficher sa valeur dans la console.

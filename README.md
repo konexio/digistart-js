@@ -2,7 +2,7 @@
 
 ## Session 1
 
-[Cours](https://docs.google.com/presentation/d/1L8-pXAcH1KNS6C4ZYMJ_nEaI4_WHsAfFIVyChynmiiQ/edit)
+[Cours](https://docs.google.com/presentation/d/1o67BsSHaZUy5HKH8KJm013xOKa90nBrabZcyAihPYbg)
 
 ### Introduction au métier de développeur et à JavaScript
 
@@ -12,27 +12,25 @@
 
 ## Session 2
 
-[Cours](https://docs.google.com/presentation/d/186HrycIb3d5n4YhghtT-DGW4dVPIFALjmTYevwp4xag/edit)
+[Cours](https://docs.google.com/presentation/d/1JTprNYt1R2b-e5bL7iW4Kk68UCxu_1xvCmL3i7XAe2w)
 
-### Types de données et fonctions
+### Types de données et méthodes
 
 - String, Number, Boolean
-- Fonctions : déclaration, appel, paramètres et retour
 - Propriétés et Méthodes
 
-## Session 3
+## Session 3 
 
-[Cours](https://docs.google.com/presentation/d/1i3ZnJOIlNy_TXE84twwtku4l4ADp5VU0cezL5TqANZs/edit)
+[Cours](https://docs.google.com/presentation/d/1m-ZtSIoqU-9aNhi4fjOY8CsHWUsYyXtwE6p0I5hp730)
 
 ### Opérateurs et conditions 
 
 - Opérateurs de comparaison
-- Opérateurs logiques
 - Conditions : algorithmie et syntaxe
 
 ## Session 4
 
-[Cours](https://docs.google.com/presentation/d/1FToOfr0RX5_4Lf7ItfJ6-6mBb51qHn3X0Mi2uxg8F4o/edit)
+[Cours](https://docs.google.com/presentation/d/1qvQXtGtv9NquuIBvutYXeV2fJVuHvXBsBdM6k0jnipI)
 
 ### Structures de données
 
@@ -41,19 +39,9 @@
 
 ## Session 5
 
-[Cours](https://docs.google.com/presentation/d/1x2XmbhvMwl5xGLH329G0eiBdjKAo85ssXZKMNIm9lOk/edit)
+[Cours](https://docs.google.com/presentation/d/1ImEzKNGYXV9cX0XDGFONn_QTXGec7eEkhGLFkVW-_54)
 
 ### Boucles 
 
 - La boucle for
-- La boucle while
-
-## Session 6
-
-[Cours](https://docs.google.com/presentation/d/17YxGnNZnvar846mq0-ce1QX5SNTD-0LzZmQI4jZeBeI/edit)
-
-### Manipulation du DOM 
-
-- "Get" et "Set" des éléments du DOM
-- Événement : types et syntaxe 
-
+- Fonctions : déclaration, appel, paramètres et retour

@@ -4,8 +4,7 @@ console.log("Vous êtes dans l'exercice 3 sur les événements");
 
 // ------ TODO 1 ------
 // Créez une variable récupérant l'élément button du HTML.
-
-
+var
 
 
 

@@ -18,7 +18,7 @@ myButton.innerHTML = "Coucou, c'est moi";
 // ------ TODO 3 ------
 // Créez une variable récupérant tous les éléments de type paragraphe.
 
-ffff
+
 
 
 // ------ TODO 4 ------

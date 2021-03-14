@@ -1,9 +1,10 @@
+
 // Ouvrez index.html dans un navigateur.
 // Au milieu, le bouton "GO" contient un évènement "onclick",
 // qui exécute la fonction go() ci-dessous.
 
 // Merci d'écrire vos lignes de code dans l'espace en dessous de chaque consigne.
-
+var winner = null;
 function go() {
   // ---TODO--- 1
   // La page que nous voulons cacher a l'id "landing-page".
@@ -75,21 +76,24 @@ function onKeyDown(event) {
 
   // Si le keyCode de mon event vaut 39,
   // alors j'assigne la propriété "left" de "redCoyote" à leftRed + 10px.
-  if (event.keyCode == 39) {
+  var speed = 20;
+  if (event.keyCode == 38) {
     var leftRedInt = getNumberFromLeftValue(leftRed);
-    leftRedInt += 10;
+    leftRedInt += speed;
     redCoyote.style.left = leftRedInt + "px";
   }
 
   // Sinon, si le keyCode de mon event vaut 90,
   // alors j'assigne la propriété "left" de "yellowCoyote" à leftYellow + 10px.
-  if (event.keyCode == 90) {
+  if (event.keyCode == 87) {
     var leftYellowInt = getNumberFromLeftValue(leftYellow);
-    leftYellowInt += 10;
+    leftYellowInt += speed;
 
     yellowCoyote.style.left = leftYellowInt + "px";
 
   }
+
+
 
 
 
@@ -106,14 +110,29 @@ function onKeyDown(event) {
   // alors une alerte d'affiche avec le texte `Coyote jaune gagne !`
 
   function checkWinner(position, name) {
-    if (position > window.innerWidth) {
+    // Vérifie si y a un gagnat et afficher un méssage d'alter si c'est le cas. 
+    //  Si il y a déjà eu un gagnant, alors vérifier si le perdant à finit.
+    console.log(winner)
+    if (winner == null && position > window.innerWidth) {
+      winner = name;
       alert(name + " gagne");
+      restart();
     }
+    if (winner != null && position > window.innerWidth) {
+      winner = name;
+      alert(name + " a perdu parce qu'il est trop nul. Il devrait arrêter de jouer.");
+    }
+  }
+
+  function restart() {
+    // Restart the game. Postion les joeurs aux départs.
+    winner = null;
+    redCoyote.style.left = "0px";
+    yellowCoyote.style.left = "0px";
   }
 
   checkWinner(leftRedInt, "Coyote rouge");
   checkWinner(leftYellowInt, "Coyote jaune");
-
 
 }
 
@@ -127,6 +146,5 @@ function onKeyDown(event) {
 
 // Lorsque le perdant termine sa course, ajouter une alerte
 // qui indique quel coyotte a perdu.
-
 // Ecrire une fonction qui permet de recommencer une partie lorsque
 // le premier coyotte arrive à la fin de la course.

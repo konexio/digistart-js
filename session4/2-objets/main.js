@@ -34,10 +34,6 @@ var user = {
 
 
 
-// 4. Afficher dans la console un tableau des propriétés (clés) de l'objet user grâce à la méthode keys.
-
-
-
 
 // ------ TODO 3 ------
 var users = [user, { name: 'Emma', age: 32, city: 'London' }];
@@ -49,51 +45,6 @@ var users = [user, { name: 'Emma', age: 32, city: 'London' }];
 // 2. Afficher dans la console "John", en accédant aux élements du tableau
 // puis à la propriété de l'objet.
 
-
-
-
-// ------ TODO 4 ------
-var car = {
-  brand: 'Ford',
-  speed: 100
-};
-
-// 1. Ajouter une méthode "drive" à l'objet car qui affiche dans la console "Vroom !".
-
-
-
-// 2. Appeller la méthode drive à partir de l'objet car.
-
-
-
-
-// ------ TODO 5 ------
-var library = [
-  {
-    author: 'Bill Gates',
-    title: 'The Road Ahead',
-    read: true
-  },
-  {
-    author: 'Walter Isaacson',
-    title: 'Steve Jobs',
-    read: false
-  },
-  {
-    author: 'Suzanne Collins',
-    title: 'Mockingjay: The Final Book of The Hunger Games',
-    read: false
-}];
-
-// 1. Changer la propriété read du livre titré 'Steve Jobs' à true.
-
-
-
-// 2. Ajouter un nouvel objet correspondant à un livre dans le tableau en suivant le même format.
-
-
-
-// 3. Supprimer le livre de Suzanne Collins du tableau.
 
 
 

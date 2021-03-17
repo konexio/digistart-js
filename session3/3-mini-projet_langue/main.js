@@ -1,6 +1,6 @@
 /* LES MÉTHODES */
 console.log("Bienvenue dans la console javascript");
-console.log("Vous êtes dans les exercices sur les méthodes");
+console.log("Vous êtes dans le mini projet sur la phrase de bienvenue");
 
 // ------ Mini projet - Changer de pharse de bienvenu dépendant de la langue ------ 
 

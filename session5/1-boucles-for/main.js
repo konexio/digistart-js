@@ -42,18 +42,3 @@ var prenoms = ['Ali', 'Nour', 'Jean', 'Carole', 'Ibrahim', 'Alma'];
 // caractères (string) qui contiendra tous les prénoms séparés par
 // une virgule. Afficher cette nouvelle chaîne de caractères dans
 // la console.
-
-var a = [12, 47, 5, 450, 98, 100, 54, 2, 87, 9999];
-var b = [3, 76, 1002, 31, 9, 340, 420, 90, -12, 1];
-
-// TODO: ÉTAPE 9
-// À l'aide d'une boucle for, parcourir les deux tableaux `a` et `b`,
-// et pour chaque indice, placer la valeur la plus petite dans un
-// nouveau tableau.
-
-// TODO: ÉTAPE 10
-// Avec une autre boucle for, additionner les valeurs de `a` ayant un
-// indice pair avec les valeurs de `b` ayant l'indice impair suivant.
-// Placer ces résultats d'addition dans un nouveau tableau à afficher
-// dans la console.
-// Par exemple: a[0] + b[1], a[2] + b[3], etc.

@@ -3,23 +3,11 @@ console.log('Bienvenue dans la console javascript');
 console.log('Vous êtes dans les exercices sur les conditions');
 
 // ------ TODO 1 ------ 
-// 1. Créer une variable color1 qui contient la valeur "rouge"
+// 1. Créer une variable currentColor qui contient la valeur "green"
 
 
+// 2. Comparez la variable "currentColor" avec la valeur "red" (c'est une string), en utilisant une condition (if) et des comparateurs (=== ou !==) :
+// - si la variable "currentColor" est égale à "red", affichez "fraise" dans la console
+// - sinon, affichez "un fruit d'une couleur" dans la console
 
-
-// 2. Créer une variable color2 qui contient la valeur "green"
-
-
-
-
-// 3. Comparez les deux variables en utilisant une condition (if) et des comparateurs (===, !==) :
-// - si la variable est égale à "rouge", affichez "fraise" dans la console
-// - si la variable est égale à "green", affichez "pomme" dans la console
-
-
-
-
-
-// ------ TODO 2 ------ 
-// Complétez l'exercice avancé 1 situé dans le dossier "exercice-avance-1"
+//3. Jouez avec la valeur de la variable currentColor, pour rentrer dans l'une ou l'autre condition

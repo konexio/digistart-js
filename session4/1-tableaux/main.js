@@ -56,7 +56,7 @@ var array = [1, 2, 3, 5, 6, 7, 9, 10];
 
 
 
-// ------ TODO 4 ------ 
+// ------ BONUS ------ 
 var array = ["B", "A", "C", "E", "D"];
 
 // 1. Trier le tableau dans l'ordre alphabétique croissant grâce à la méthode sort.
@@ -68,18 +68,6 @@ var array = ["B", "A", "C", "E", "D"];
 
 
 // 3. Afficher le tableau dans la console et vérifier qu'on obtient la string "ABCDE".
-
-
-
-
-// ------ TODO 5 ------ 
-var array = ["Michael", "Jordan", "Laeticia", "Julie"];
-
-// 1. Ecrire une fonction qui renvoie le dernier élément du tableau passé en paramètre.
-
-
-
-// 2. Appeller la fonction avec le tableau array et vérifier que l'élément "Julie" est bien renvoyé en l'affichant dans la console.
 
 
 

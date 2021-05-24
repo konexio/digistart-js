@@ -2,14 +2,13 @@
 
 ## Notions traitées
 
-- Créer des fonctions.
-- Appeller des fonctions.
+- Manipuler des objets
 - Manipuler des variables.
 
 ## Description
 
 Dans cet exercice, nous allons comprendre comment utiliser des méthodes sur des objets et accéder à leurs propriétés.  
-Les propriétés sont des caractéristiques qui définissent ces types et les méthodes ce sont des outils (comme des fonctions) qu'on peut utiliser dessus.
+Les propriétés sont des caractéristiques qui définissent ces types et les méthodes ce sont des outils qu'on peut utiliser dessus.
 
 ## Instructions
 
